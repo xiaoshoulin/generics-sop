@@ -1,0 +1,10 @@
+resolver: lts-12.9
+
+extra-package-dbs: []
+
+packages: 
+- .
+
+extra-deps:
+- git: https://github.com/xiaoshoulin/sop-core.git
+  commit: e093edd640ad371aa804754cb46bc19cf581138c
