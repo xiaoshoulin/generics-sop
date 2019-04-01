@@ -48,7 +48,7 @@ import GHC.ByteOrder -- new
 import GHC.Conc -- new
 import GHC.ExecutionStack -- new
 import GHC.Exts -- new
-import GHC.Event -- new
+-- import GHC.Event -- new
 import GHC.Fingerprint -- new
 import GHC.Float -- new
 import qualified GHC.Generics -- new
@@ -255,7 +255,7 @@ deriveGeneric ''ThreadStatus -- new
 deriveGeneric ''BlockReason -- new
 
 -- From GHC.Event(.Inernal):
-deriveGeneric ''Lifetime -- new
+-- deriveGeneric ''Lifetime -- new
 
 -- From GHC.ExecutionStack:
 deriveGeneric ''Location -- new
